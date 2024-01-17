@@ -1,0 +1,91 @@
+:root{
+    scroll-behavior: auto;
+}
+body{
+    transition: all 1s;
+}
+/*    START HEADER SECTION       */
+header .header-content {
+    height: 85vh;
+    background-image:  linear-gradient(rgba(255, 0, 0, 0.77) ,rgba(255, 0, 0, 0.77)),url('../images/events-heavenly-header.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+header .header-text h1{
+    font-size: 60px;
+    line-height: 72px;
+
+}
+header span{
+    font-size: 30px;
+    line-height: 45px;
+}
+#menuBtn{
+    cursor: pointer;
+}
+/*    END HEADER SECTION       */
+/*    START MENU SECTION       */
+ #menu{
+background-color: #111111;
+width: 20%;
+position: fixed;
+left: 0;
+top: 0;
+display: none;
+/* transition: all 1s; */
+}
+
+ #menu li{
+
+    padding:20px 8px 20px 32px ;
+}
+
+ #menu a{
+color: white;
+font-size: 25px;
+font-weight: 400;
+line-height: 37.5px;
+transition: all 1s;
+}
+ #menu a:hover{
+    color: 
+    RGBA(214, 46, 51, 0.4);
+}
+/*    END MENU SECTION       */
+/*    START DETAILS SECTION       */
+#details  h3{
+    background-color: #E68285;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+#details  p{
+    /* margin-bottom: 0; */
+    background-color: #CCCCCC;
+    display: none;
+}
+/*    END DETAILS SECTION       */
+/*    START DURATION SECTION       */
+#duration{
+    background-image:  linear-gradient(rgba(255, 0, 0, 0.77) ,rgba(255, 0, 0, 0.77)),url('../images/invitation-2508607__340.jpg') ;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#duration span{
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: 500;
+    color: white;
+}
+/*    END DURATION SECTION       */
+/*    START CONTACT SECTION       */
+.icon-custom{
+    transition: all 1s;
+}
+.icon-custom:hover{
+    color:white;
+    background-color: black;
+}
+/*    END CONTACT SECTION       */
+
